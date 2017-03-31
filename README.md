@@ -5,7 +5,7 @@ JavaScript firmware for [ng-beacon](https://ngbeacon.io), based on [Espruino](ht
 ## Firmware Upgrade Instructions
 1. Copy all the files to the Raspberry Pi
 2. Connect your ng-beacon to the Raspberry Pi (see below)
-3. Run `./flash.sh` 
+3. Run `./nrf51-old/flash.sh` 
 
 Programming should take about 20-25 seconds (tested on Raspberry Pi 3). If you connected the ng-beacon correctly, you will see 
 the following line in the output:
